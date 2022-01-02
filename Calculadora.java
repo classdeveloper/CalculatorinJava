@@ -8,17 +8,17 @@ public class Calculadora {
 		
 		Scanner ler = new Scanner (System.in);
 		
-		System.out.printf("Insira o primeiro número: ");
+		System.out.printf("Insira o primeiro nÃºmero: ");
 		int num1 = ler.nextInt();
 		
-		System.out.printf("Insira o segundo número: ");
+		System.out.printf("Insira o segundo nÃºmero: ");
 		int num2 = ler.nextInt();
 		
-		System.out.printf("Selecione o tipo de operação: ");
-		System.out.println("\n1) Adição");
-		System.out.println("2) Subtração");
-		System.out.println("3) Multiplicação");
-		System.out.println("4) Divisão");
+		System.out.println("Selecione o tipo de operaÃ§Ã£o: ");
+		System.out.println("1) AdiÃ§Ã£o");
+		System.out.println("2) SubtraÃ§Ã£o");
+		System.out.println("3) MultiplicaÃ§Ã£o");
+		System.out.println("4) DivisÃ£o");
 		int type = ler.nextInt();
 		
 		switch (type) {
@@ -35,7 +35,7 @@ public class Calculadora {
 			System.out.println("\nResultado: " + (num1 / num2));
 			break;
 			default:
-				System.out.println("Operação não encontrada!");
+				System.out.println("OperaÃ§Ã£o nÃ£o encontrada!");
 		}
 		ler.close();
 	}
